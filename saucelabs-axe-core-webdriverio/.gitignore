@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Output and reports
+.tmp/
+reports/
+*.log
+saucelabs.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test artifacts
+screenshots/
+videos/
+coverage/
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# Debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

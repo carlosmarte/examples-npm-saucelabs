@@ -1,0 +1,39 @@
+{
+  "name": "saucelabs-axe-core-playwright",
+  "version": "1.0.0",
+  "description": "Playwright + axe-core accessibility testing on Saucelabs cloud infrastructure",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "node index.mjs",
+    "test:local": "RUN_ON_SAUCELABS=false node index.mjs"
+  },
+  "keywords": [
+    "playwright",
+    "axe-core",
+    "saucelabs",
+    "accessibility",
+    "a11y",
+    "wcag",
+    "automated-testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@axe-core/playwright": "^4.8.0",
+    "@playwright/test": "^1.40.0",
+    "abort-controller": "^3.0.0",
+    "axe-core": "^4.8.0",
+    "dotenv": "^16.3.1",
+    "global-agent": "^3.0.0",
+    "jsonfile": "^6.1.0",
+    "mkdirp": "^3.0.1",
+    "node-fetch": "^3.3.2",
+    "playwright": "^1.40.0",
+    "saucelabs": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
